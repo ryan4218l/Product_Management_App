@@ -61,5 +61,6 @@ A full-stack e-commerce application built with React.js, Node.js, Express, Postg
 
 1. **Clone the repository**
    ```bash
-   git clone <[your-repo-url](https://github.com/ryan4218l/Product_Management_App.git)>
-   cd product-management-app
+   git clone <https://github.com/ryan4218l/Product_Management_App.git>
+   cd frontend - for frontend code
+   cd backend - for backend code
