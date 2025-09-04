@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "lib": ["ES2020"],
+    // "types": [],
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    // "noUncheckedIndexedAccess": true,
+    // "exactOptionalPropertyTypes": true,
+
+    // Style Options
+
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    // Recommended Options
+    "strict": true,  
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "experimentalDecorators": true,
+    // "verbatimModuleSyntax": true,
+    // "isolatedModules": true,
+    // "noUncheckedSideEffectImports": true,
+    // "moduleDetection": "force",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    // "src/mikro-orm.config.ts",
+    "node_modules", 
+    "dist"
+  ]
+}

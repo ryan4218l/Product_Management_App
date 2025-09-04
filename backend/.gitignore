@@ -1,0 +1,29 @@
+Dependency directories
+node_modules/
+
+macOS files
+.DS_Store
+
+Windows files
+Thumbs.db
+
+Environment variables
+.env
+.env.local
+
+Log files
+*.log
+
+TypeScript build output
+dist/
+build/
+*.tsbuildinfo
+
+TypeScript source maps and JavaScript files in src/
+You can remove this if you need to commit your JS build output
+src//*.js
+src//*.js.map
+
+IDE files
+.vscode/
+.idea/
