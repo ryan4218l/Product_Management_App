@@ -8,7 +8,6 @@ Windows files
 Thumbs.db
 
 Environment variables
-.env
 .env.local
 
 Log files
